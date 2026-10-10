@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b18">
+  <title>Chetan GameVerse</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">CG</span><span>Chetan <b>GameVerse</b></span></a>
+    <nav><a href="#games">Games</a><a href="#about">About</a></nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR NEXT PLAY STARTS HERE</p>
+        <h1>Welcome to <span>Chetan GameVerse</span></h1>
+        <p class="hero-text">Quick games. Big fun. Pick a game and beat your best score.</p>
+        <a class="button primary" href="#games">Explore games <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="gamepad">🎮</div><span class="spark spark-a">✦</span><span class="spark spark-b">✧</span></div>
+    </section>
+    <section id="games" class="games-section">
+      <div class="section-heading"><div><p class="eyebrow">THE ARCADE</p><h2>Choose your game</h2></div><p class="muted">Four games, ready to play.</p></div>
+      <div class="game-grid">
+        <article class="game-card snake-card"><div class="card-icon">🐍</div><p class="card-tag">ARCADE</p><h3>Snake</h3><p>Eat the food, grow longer, and avoid crashing.</p><a class="button card-button" href="games/snake.html">Play Snake <span>→</span></a></article>
+        <article class="game-card tic-card"><div class="card-icon">⭕</div><p class="card-tag">CLASSIC</p><h3>Tic-Tac-Toe</h3><p>Challenge a friend or play against the computer.</p><a class="button card-button" href="games/tic-tac-toe.html">Play Tic-Tac-Toe <span>→</span></a></article>
+        <article class="game-card memory-card"><div class="card-icon">🧠</div><p class="card-tag">BRAIN</p><h3>Memory Match</h3><p>Flip the cards and find all matching pairs.</p><a class="button card-button" href="games/memory-match.html">Play Memory <span>→</span></a></article>
+        <article class="game-card racing-card"><div class="card-icon">🏎️</div><p class="card-tag">RACING</p><h3>Neon Racing</h3><p>Dodge traffic and survive for as long as you can.</p><a class="button card-button" href="games/racing.html">Play Racing <span>→</span></a></article>
+      </div>
+    </section>
+    <section id="about" class="about-panel"><div><p class="eyebrow">MADE FOR PLAY</p><h2>Your mini arcade, anywhere.</h2><p class="muted">Chetan GameVerse is a free browser-game collection. No account or installation required.</p></div><div class="about-badge">FREE TO PLAY <span>✦</span></div></section>
+  </main>
+  <footer><span>© <span id="year"></span> Chetan GameVerse</span><span>Play fair. Have fun.</span></footer>
+</body>
+</html>
